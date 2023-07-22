@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "le nhut duy",
+  "license": "ISC",
+  "dependencies": {
+    "fomantic-ui": "^2.9.2"
+  }
+}
