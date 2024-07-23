@@ -12,6 +12,8 @@ import Contents from "@/components/Contents.vue";
       <LeftSideBar></LeftSideBar>
       <Contents></Contents>
       </div>
+      <HelloWorld msg="HỒ CHÍ TÂM NÈ!" />
+    </div>
   </main>
 </template>
 
