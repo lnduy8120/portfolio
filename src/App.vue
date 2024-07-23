@@ -7,18 +7,17 @@ import Contents from "@/components/Contents.vue";
 <template>
   <main>
     <div class="wrapper">
-      <BodyOverlay>
-      </BodyOverlay>
+      <BodyOverlay> </BodyOverlay>
       <LeftSideBar></LeftSideBar>
-      <Contents></Contents>
-      </div>
-      <HelloWorld msg="HỒ CHÍ TÂM NÈ!" />
+      <Contents>
+        <HelloWorld msg="HỒ CHÍ TÂM NÈ!" />
+      </Contents>
     </div>
   </main>
 </template>
 
 <style scoped>
-  .wrapper {
-    height: 1300px;
-  }
+.wrapper {
+  height: 1300px;
+}
 </style>
