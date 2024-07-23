@@ -1,20 +1,24 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue"
+import BodyOverlay from "@/components/BodyOverlay.vue";
+import LeftSideBar from "@/components/LeftSideBar.vue";
+import Contents from "@/components/Contents.vue";
 </script>
 
 <template>
-  <!-- <header></header> -->
-
   <main>
     <div class="wrapper">
+      <BodyOverlay>
+      </BodyOverlay>
+      <LeftSideBar></LeftSideBar>
+      <Contents></Contents>
+      </div>
       <HelloWorld msg="HỒ CHÍ TÂM NÈ!" />
     </div>
   </main>
 </template>
 
 <style scoped>
-.wrapper {
-  width: 100%;
-  margin: auto;
-}
+  .wrapper {
+    height: 1300px;
+  }
 </style>
