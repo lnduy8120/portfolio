@@ -7,7 +7,7 @@ import HelloWorld from "./components/HelloWorld.vue"
 
   <main>
     <div class="wrapper">
-      <HelloWorld msg="LE CONG MINH NÈ!" />
+      <HelloWorld msg="HỒ CHÍ TÂM NÈ!" />
     </div>
   </main>
 </template>
